@@ -4,6 +4,7 @@ def countdown(number)
     def countdown_with_sleep
       sleep 1
     end
+    countdown_with_sleep(5)
     
     while number > 0 
     
